@@ -5,19 +5,22 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: #a9a9a9;
+    background-color: #d5d3d3;
 }
 
 .calculator {
+    height: 50vh;
+    width: 300px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(44, 41, 41);
+    padding: 40px;
     text-align: center;
 }
 
 #display {
     width: 90%;
+    height: 50px;
     margin-bottom: 10px;
     padding: 10px;
     font-size: 24px;
@@ -34,12 +37,17 @@ body {
     padding: 15px;
     font-size: 18px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
 .number {
-    background-color: #f0f0f0;
+    background-color: #c9c9c9;
+}
+
+#calc{
+    background-color: green;
+    color: white;
 }
 
 .operator, .calculate {
@@ -48,6 +56,6 @@ body {
 }
 
 .clear {
-    background-color: #ff0000;
+    background-color: black;
     color: #fff;
 }
